@@ -1,0 +1,262 @@
+*{
+    background-color: rgb(16, 16, 16);
+    margin: 0;
+    color: white;
+    overflow: auto;
+}
+
+.navbar{
+    background-color: rgb(49, 46, 46);
+    height: 52.4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-options{
+    background-color:rgb(49, 46, 46);
+    width: 50rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-options a{
+    background-color: rgb(49, 46, 46);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.landing{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 617px;
+}
+
+.bold-name{
+    font-size: 8.5rem;
+    margin-bottom: 8rem;
+    font-weight: 500;
+    padding-top: 8.5rem;
+}
+
+.explore{
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.explore:hover{
+    letter-spacing: 0.2rem;
+    transition: all 0.2s linear;
+}
+
+@media(max-width: 1000px){
+    .bold-name{
+        font-size: 6.5rem;
+        padding-top: 1.5rem;
+        margin-bottom: 6rem;
+    }
+    .landing{
+        height: 500px;
+    }
+    .explore{
+        font-size: 1.5rem;
+    }
+}
+
+@media(max-width: 700px){
+    .bold-name{
+        font-size: 3rem;
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+    .landing{
+        margin-top: 2rem;
+        justify-content: start;
+        height: 75px;
+    }
+    .explore{
+        display: none;
+    }
+}
+
+@media(max-width: 450px){
+    .navbar{
+        display: none;
+    }
+    .landing{
+        margin-top: 1.5rem;
+    }
+}
+
+.photo{
+    width: 24rem;
+    height: 31rem;
+    overflow: hidden;
+    border-radius: 2rem;
+    margin-right: 3.5rem;
+}
+
+.photo  img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+}
+
+.about-me{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-start;
+    padding-top: 1.5rem;
+}
+
+
+.about-content p{
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.about-title{
+    margin-bottom: 1rem;
+    text-decoration: underline orange;
+    margin-bottom: 2rem;
+}
+
+@media(max-width: 950px){
+    .about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5rem;
+    }
+
+    .about-me{
+        align-self: center;
+        width: 80%;
+    }
+
+    .photo{
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+
+    .about-title{
+        display: none;
+    }
+}
+
+@media(max-width: 500px){
+    .photo{
+        width: 15rem;
+        height: 19rem;
+    }
+
+    .about-content p{
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+
+    .about-me{
+        padding-top: 0.5rem;
+    }
+}
+
+.timeline{
+    /* position: relative; */
+    max-width: 800px;
+    margin: 100px auto;
+    /* overflow: hidden; */
+}
+
+.education-title{
+    text-align: center;
+    text-decoration: underline orange;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+
+.container{
+    position: relative;
+    width: 20rem;
+    overflow: visible;
+}
+
+.text-box h2, .text-box small, .text-box p{
+    background-color: rgb(49, 46, 46);
+}
+
+.text-box{
+    padding: 20px 30px;
+    width: 100%; 
+    position: relative;
+    border: 1rem;
+    font-size: 1rem;
+    background-color: rgb(49, 46, 46);
+    border-radius: 1rem;
+}
+
+.left-container{
+    left: 0;
+}
+
+.right-container{
+    left: 50%;
+}
+
+@media(max-width: 850px){
+    .right-container{
+        left: 0;
+    }
+
+    .timeline{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 500px;
+        margin-top: 2rem;
+    }
+
+    .container{
+        margin-bottom: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about{
+        margin-bottom: 4rem;
+    }
+}
+
+@media(max-width: 450px){
+    .about{
+        margin-bottom: 4rem;
+    }
+    .container{
+        width: 12rem;
+    }
+
+    .education-title{
+        font-size: 1.4rem;
+    }
+    .text-box{
+        font-size: small;
+        padding: 10px 20px;
+    }
+}
