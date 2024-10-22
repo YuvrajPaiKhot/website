@@ -307,3 +307,133 @@
         height: 7.5rem;
     }
 }
+
+.languages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8rem;
+    overflow: hidden;
+}
+
+.language-types{
+    width: 45rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 2rem;
+}
+.language-types div{
+    margin-bottom: 0.5rem;
+}
+
+.language-title{
+    font-size: 1.8rem;
+    text-decoration: underline orange;
+    margin-bottom: 2rem;
+}
+
+.font-translate{
+    font-size: 1.2rem; 
+    text-align: center;
+}
+
+@media(max-width: 615px){
+    .language-types > div{
+        width: 50%;
+        text-align: center;
+    }
+
+    .language-types{
+        width: 30rem;
+    }
+}
+
+@media(max-width: 450px){
+    .language-title{
+        font-size: 1.4rem;
+    }
+    .language-types{
+        width: 25rem;
+    }
+}
+
+.experience-title{
+    font-size: 1.8rem;
+    text-decoration: underline orange;
+    margin-bottom: 2rem;
+}
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8rem;
+    overflow: visible;
+}
+
+.experience-cont-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card{
+    width: 24rem;
+    height: 13.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    background-color: rgb(49, 46, 46);
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+.card h2{
+    margin-bottom: 1.5rem;
+    background-color: rgb(49, 46, 46);
+}
+
+.card small{
+    margin-bottom: 1rem;
+    background-color: rgb(49, 46, 46);
+}
+
+.card p{
+    width: 75%;
+    background-color: rgb(49, 46, 46);
+    text-align: justify;
+    font-size: 1rem;
+}
+
+.divider{
+    border-top: 3px solid black;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.experience-cont-2{
+    display: flex;
+    justify-content: center;
+}
+
+@media(max-width: 900px){
+    .experience-cont-1{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 450px){
+    .card{
+        width: 19rem;
+        height: 14rem;
+    }
+
+    .card p{
+        width: 80%;
+    }
+
+    .experience-title{
+        font-size: 1.4rem;
+    }
+}
