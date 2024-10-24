@@ -14,20 +14,20 @@
     <nav>
         <div class="navbar">
             <div class="nav-options">
-                <a href="#">HOME</a>
-                <a href="#">ABOUT</a>
-                <a href="#">RESUME</a>
-                <a href="#">CONTACT</a>
+                <a href="">HOME</a>
+                <a href="#about-me">ABOUT</a>
+                <a href="https://drive.google.com/file/d/1CbncMPVwRUfD3sfQtlXBEWLUCJ6v3PKa/view?usp=sharing">RESUME</a>
+                <a href="#contact-me">CONTACT</a>
             </div>
         </div>
     </nav>
 
     <div class="landing">
         <div class="bold-name">Yuvraj Pai Khot</div>
-        <div class="explore">Explore</div>
+        <a href="#about-me"><div class="explore">Explore</div></a>
     </div>
 
-    <div class="about">
+    <div class="about" id="about-me">
         <div class="photo">
             <img src="./assets/Yuvraj Photo new.jpg" alt="Photo of Yuvraj">
         </div>
@@ -97,9 +97,10 @@
             <img src="./assets/flutterflow.png" alt="Java">
             <img src="./assets/mysql.png" alt="HTML">
             <img src="./assets/java.png" alt="CSS">
-            <img src="./assets/html.png" alt="BootStrap">
-            <img src="./assets/css.png" alt="MySQL">
+            <img src="./assets/HTML.png" alt="BootStrap">
+            <img src="./assets/CSS.png" alt="MySQL">
             <img src="./assets/bootstrap.png" alt="FlutterFlow">
+            <img src="./assets/Java Script.png" alt="JavaScript">
         </div>
     </div>
 
@@ -159,22 +160,24 @@
             <h2>PROJECTS & PUBLICATIONS</h2>
         </div>
         <div class="project-content">
-            <div class="card project-card">
-                <h2>SPEAK IT OUT</h2>
-                <div class="divider"></div>
-                <small>(Research Article on Voice Assistants)</small>
-                <p>Yuvraj Pai Khot (2022) SPEAK IT OUT ”VOICE ASSISTANTS FUTURE OF INTERACTION”, (pp: 406-413) Royal Book Publishing, ISBN : 9789391131197</p>
-            </div>
-            <div class="card project-card">
-                <h2>TrackSpense</h2>
-                <div class="divider"></div>
-                <small>(An expense tracking appp built using FlutterFlow)</small>
-                <p>Built an expense tracker app with an intuitive interface, secure authentication and passcode features. Used Google Firestore for data storage, and created custom queries for transaction filtering</p>
-            </div>
+            <a href="https://www.researchgate.net/publication/361016657_SPEAK_IT_OUT" target="_blank" style="text-decoration: none;">
+                <div class="card project-card click-card">
+                    <h2>SPEAK IT OUT</h2>
+                    <div class="divider"></div>
+                    <small>(Research Article on Voice Assistants)</small>
+                    <p>Yuvraj Pai Khot (2022) SPEAK IT OUT ”VOICE ASSISTANTS FUTURE OF INTERACTION”, (pp: 406-413) Royal Book Publishing, ISBN : 9789391131197</p>
+                </div>
+            </a>
+            <a href="https://www.youtube.com/watch?v=rvQAMkzaSlM" target="_blank" style="text-decoration: none;">
+                <div class="card project-card click-card">
+                    <h2>TrackSpense</h2>
+                    <div class="divider"></div>
+                    <small>(An expense tracking app)</small>
+                    <p>Built an expense tracker app with an intuitive interface, secure authentication and passcode features. Used Google Firestore for data storage, and created custom queries for transaction filtering</p>
+                </div>
+            </a>
         </div>
-        <button class="resume-button">
-            <a href="#" style="text-decoration: none; background-color: rgb(49, 46, 46);">Download Resume</a>
-        </button>
+        <a href="https://drive.google.com/file/d/1CbncMPVwRUfD3sfQtlXBEWLUCJ6v3PKa/view?usp=sharing" class="resume-button" target="_blank">Download Resume</a>
     </div>
 
     <div class="profiles">
@@ -182,8 +185,8 @@
             <h1>PROFILES</h1>
         </div>
         <div class="profiles-container">
-            <img src="./assets/gfg.png" alt="geeks for geeks">
-            <img src="./assets/leetcode.png" alt="leetcode">
+            <a href="https://www.geeksforgeeks.org/user/yuvraj6096/" target="_blank"><img src="./assets/gfg.png" alt="geeks for geeks"></a>
+            <a href="https://leetcode.com/u/yuvican/" target="_blank"><img src="./assets/leetcode.png" alt="leetcode"></a>
         </div>
     </div>
 
@@ -191,12 +194,12 @@
         <div class="contact-title">
             <h1>CONTACT</h1>
         </div>
-        <div class="contact-container">
-            <a href=""><i class="fa-solid fa-envelope"></i></a>
-            <a href=""><i class="fa-solid fa-phone"></i></a>
-            <a href=""><i class="fa-brands fa-linkedin"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+        <div class="contact-container" id="contact-me">
+            <a href="mailto:yuvraj6.khot@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:+919607002852"><i class="fa-solid fa-phone"></i></a>
+            <a href="https://www.linkedin.com/in/yuvraj-pai-khot" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/y.u.v.i.c.a.n/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/YuvrajPaiKhot" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
         </div>
     </div>
 
