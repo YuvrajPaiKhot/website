@@ -250,7 +250,7 @@
         margin-bottom: 4rem;
     }
     .container{
-        width: 12rem;
+        width: 14rem;
     }
 
     .education-title{
@@ -555,7 +555,7 @@
     margin: 1rem;
 }
 
-@media(max-width: 400px){
+@media(max-width: 450px){
     .profiles-title{
         font-size: 1.3rem;
     }
@@ -574,17 +574,16 @@
     margin-bottom: 1.5rem;
 }
 
-.conntact-container{
+.contact-container{
     display: flex;
     justify-content: center;
-    width: 20rem;
+    align-items: center;
+    width: 100%;
 }
 
 .contact-container a{
-    width: 5rem;
-    height: 5rem;
-    border-radius: 1rem;
-    margin: 1rem;
+    text-align: center;
+    margin: 2rem;
     overflow: hidden;
 }
 
@@ -592,9 +591,13 @@ i{
     font-size: 1.8rem;
 }
 
-@media(max-width: 400px){
+@media(max-width: 450px){
     .contact-title{
         font-size: 1.3rem;
+    }
+
+    .contact-container a{
+        margin: 1rem;
     }
 }
 
@@ -639,3 +642,4 @@ i{
         margin-bottom: 4rem;
     }
 }
+
